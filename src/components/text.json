@@ -1,0 +1,11 @@
+{
+  "IronIngot": {
+    "craftingTime": 2,
+    "Ingredients": [{ "name": "ironOre", "min": 3 }],
+    "Products": [{ "name": "ironOre", "min": 1 }]
+  },
+  "CopperIngot": {
+    "Ingredients": ["copperOre", 1, 30],
+    "Products": ["copperIngot", 1, 30]
+  }
+}
