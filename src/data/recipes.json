@@ -1,33 +1,39 @@
 {
   "smelter": [
     {
-      "inputItem": [{ "name": "iron_ore" }],
-      "outputItem": [{ "name": "iron_ingot" }],
+      "inputItem": [{ "name": "iron_ore", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ore" }],
-      "outputItem": [{ "name": "copper_ingot" }],
+      "inputItem": [{ "name": "copper_ore", "quantity": 1 }],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "caterium_ore" }],
-      "outputItem": [{ "name": "caterium_ingot" }],
+      "inputItem": [{ "name": "caterium_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_scrap" }],
-      "outputItem": [{ "name": "aluminium_ingot" }],
+      "inputItem": [{ "name": "aluminium_scrap", "quantity": 2 }],
+      "outputItem": [{ "name": "aluminium_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "red_ball" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "red_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "blue_ball" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "blue_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     }
   ],
