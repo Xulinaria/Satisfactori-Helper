@@ -39,48 +39,84 @@
   ],
   "foundry": [
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "coal_ore" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 3 },
+        { "name": "coal_ore", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_scrap" }, { "name": "silica" }],
-      "outputItem": [{ "name": "aluminium_ingot" }],
+      "inputItem": [
+        { "name": "aluminium_scrap", "quantity": 6 },
+        { "name": "silica", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "aluminium_ingot", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ore" }, { "name": "iron_ore" }],
-      "outputItem": [{ "name": "copper_ingot" }],
+      "inputItem": [
+        { "name": "copper_ore", "quantity": 10 },
+        { "name": "iron_ore", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 20 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "petroleum_coke" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 15 },
+        { "name": "petroleum_coke", "quantity": 15 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 20 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "compacted_coal" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 6 },
+        { "name": "compacted_coal", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 10 }],
+      "timeCreation": 16,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }, { "name": "coal_ore" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ingot", "quantity": 2 },
+        { "name": "coal_ore", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "timeCreation": 3,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "copper_ore" }],
-      "outputItem": [{ "name": "iron_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 2 },
+        { "name": "copper_ore", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "timeCreation": 6,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "red_ball" }, { "name": "copper_ingot" }],
-      "outputItem": [{ "name": "yellow_ball" }],
+      "inputItem": [
+        { "name": "red_ball", "quantity": 2 },
+        { "name": "copper_ingot", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "yellow_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "blue_ball" }, { "name": "iron_ingot" }],
-      "outputItem": [{ "name": "yellow_ball" }],
+      "inputItem": [
+        { "name": "blue_ball", "quantity": 3 },
+        { "name": "iron_ingot", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "silver_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     }
   ],
