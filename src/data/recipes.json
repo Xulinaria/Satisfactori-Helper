@@ -373,5 +373,187 @@
       "timeCreation": 12,
       "category": "christmas"
     }
+  ],
+  "packager": [
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_alumina_solution", "quantity": 2 }],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_heavy_oil_residue", "quantity": 2 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "liquid_biofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_liquid_biofuel", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nitric_acid", "quantity": 1 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "packaged_nitric_acid", "quantity": 1 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nitrogen_gas", "quantity": 4 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "packaged_nitrogen_gas", "quantity": 1 }],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "crude_oil", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_oil", "quantity": 2 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfuric_acid", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_sulfuric_acid", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "turbofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_turbofuel", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "water", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_water", "quantity": 2 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_alumina_solution", "quantity": 2 }],
+      "outputItem": [
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_heavy_oil_residue", "quantity": 2 }],
+      "outputItem": [
+        { "name": "heavy_oil_residue", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_liquid_biofuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "liquid_biofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_nitric_acid", "quantity": 1 }],
+      "outputItem": [
+        { "name": "nitric_acid", "quantity": 1 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_nitrogen_gas", "quantity": 1 }],
+      "outputItem": [
+        { "name": "nitrogen_gas", "quantity": 4 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_oil", "quantity": 2 }],
+      "outputItem": [
+        { "name": "crude_oil", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_sulfuric_acid", "quantity": 1 }],
+      "outputItem": [
+        { "name": "sulfuric_acid", "quantity": 1 },
+        { "name": "empty_canister", "quantity": 1 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_turbofuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "turbofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_water", "quantity": 2 }],
+      "outputItem": [
+        { "name": "water", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    }
   ]
 }
