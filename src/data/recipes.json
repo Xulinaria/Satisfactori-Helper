@@ -122,213 +122,255 @@
   ],
   "constructor": [
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "iron_plate" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "iron_plate", "quantity": 2 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "iron_rod" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "steel_beam" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 4 }],
+      "outputItem": [{ "name": "steel_beam", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "steel_pipe" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "steel_pipe", "quantity": 2 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "plastic" }],
-      "outputItem": [{ "name": "empty_canister" }],
+      "inputItem": [{ "name": "plastic", "quantity": 2 }],
+      "outputItem": [{ "name": "empty_canister", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "quartz_crystal_ore" }],
-      "outputItem": [{ "name": "quartz_crystal" }],
+      "inputItem": [{ "name": "quartz_crystal_ore", "quantity": 5 }],
+      "outputItem": [{ "name": "quartz_crystal", "quantity": 3 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_ingot" }],
-      "outputItem": [{ "name": "aluminium_casing" }],
+      "inputItem": [{ "name": "aluminium_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "aluminium_casing", "quantity": 2 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "quartz_crystal_ore" }],
-      "outputItem": [{ "name": "silica" }],
+      "inputItem": [{ "name": "quartz_crystal_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "silica", "quantity": 5 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "copper_sheet" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 2 }],
+      "outputItem": [{ "name": "copper_sheet", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "copper_powder" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 30 }],
+      "outputItem": [{ "name": "copper_powder", "quantity": 5 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_ingot" }],
-      "outputItem": [{ "name": "empty_fluid_tank" }],
+      "inputItem": [{ "name": "aluminium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "empty_fluid_tank", "quantity": 1 }],
+      "timeCreation": 1,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "biomass" }],
-      "outputItem": [{ "name": "solid_biofuel" }],
+      "inputItem": [{ "name": "biomass", "quantity": 8 }],
+      "outputItem": [{ "name": "solid_biofuel", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "alien_protein" }],
-      "outputItem": [{ "name": "alien_dna_capsule" }],
+      "inputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_dna_capsule", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "alien_protein" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "outputItem": [{ "name": "biomass", "quantity": 100 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "caterium_ingot" }],
-      "outputItem": [{ "name": "quickwire" }],
+      "inputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "quickwire", "quantity": 5 }],
+      "timeCreation": 5,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "mycelia" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "mycelia", "quantity": 10 }],
+      "outputItem": [{ "name": "biomass", "quantity": 10 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "purple_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "purple_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 5 }],
+      "timeCreation": 24,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "yellow_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "yellow_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 2 }],
+      "timeCreation": 12,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "blue_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "blue_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 1 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "leaves" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "leaves", "quantity": 10 }],
+      "outputItem": [{ "name": "biomass", "quantity": 5 }],
+      "timeCreation": 5,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "limestone_ore" }],
-      "outputItem": [{ "name": "concrete" }],
+      "inputItem": [{ "name": "limestone_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "concrete", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_rod" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "outputItem": [{ "name": "screw", "quantity": 4 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "wire" }],
-      "outputItem": [{ "name": "cable" }],
+      "inputItem": [{ "name": "wire", "quantity": 2 }],
+      "outputItem": [{ "name": "cable", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "wire", "quantity": 2 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_rod" }],
-      "outputItem": [{ "name": "iron_rebar" }],
+      "inputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rebar", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "wood" }],
-      "outputItem": [{ "name": "coal_ore" }],
+      "inputItem": [{ "name": "wood", "quantity": 4 }],
+      "outputItem": [{ "name": "coal_ore", "quantity": 20 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "biomass" }],
-      "outputItem": [{ "name": "coal_ore" }],
+      "inputItem": [{ "name": "biomass", "quantity": 1 }],
+      "outputItem": [{ "name": "coal_ore", "quantity": 10 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "iron_rod" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rod", "quantity": 4 }],
+      "timeCreation": 5,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "empty_canister" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "empty_canister", "quantity": 2 }],
+      "timeCreation": 3,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "caterium_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "wire", "quantity": 8 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "outputItem": [{ "name": "wire", "quantity": 9 }],
+      "timeCreation": 24,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_beam" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "steel_beam", "quantity": 1 }],
+      "outputItem": [{ "name": "screw", "quantity": 52 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "outputItem": [{ "name": "screw", "quantity": 20 }],
+      "timeCreation": 24,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "actual_snow" }],
-      "outputItem": [{ "name": "snowball" }],
+      "inputItem": [{ "name": "actual_snow", "quantity": 3 }],
+      "outputItem": [{ "name": "snowball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "actual_snow" }],
+      "inputItem": [{ "name": "gift", "quantity": 5 }],
+      "outputItem": [{ "name": "actual_snow", "quantity": 2 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "thee_branch" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "thee_branch", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "bow" }],
+      "inputItem": [{ "name": "gift", "quantity": 2 }],
+      "outputItem": [{ "name": "bow", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "candy_cane" }],
+      "inputItem": [{ "name": "gift", "quantity": 3 }],
+      "outputItem": [{ "name": "candy_cane", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     }
   ]
