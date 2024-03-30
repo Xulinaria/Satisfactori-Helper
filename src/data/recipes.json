@@ -555,5 +555,157 @@
       "timeCreation": 1,
       "category": "def"
     }
+  ],
+  "blender": [
+    {
+      "inputItem": [
+        { "name": "sulfuric_acid", "quantity": 2.5 },
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "aluminium_casing", "quantity": 1 }
+      ],
+      "outputItem": [
+        { "name": "battary", "quantity": 1 },
+        { "name": "water", "quantity": 1.5 }
+      ],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 5 },
+        { "name": "motor", "quantity": 1 },
+        { "name": "nitrogen_gas", "quantity": 24 }
+      ],
+      "outputItem": [{ "name": "cooling_system", "quantity": 2 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 2 },
+        { "name": "rubber", "quantity": 2 },
+        { "name": "water", "quantity": "5" },
+        { "name": "nitrogen_gas", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "cooling_system", "quantity": 1 }],
+      "timeCreation": 10,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 5 },
+        { "name": "water", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "fuel", "quantity": 10 }],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 10 },
+        { "name": "concrete", "quantity": 3 },
+        { "name": "sulfuric_acid", "quantity": 8 }
+      ],
+      "outputItem": [
+        { "name": "encased_uranium_cell", "quantity": 5 },
+        { "name": "sulfuric_acid", "quantity": 2 }
+      ],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 5 },
+        { "name": "uranium_waste", "quantity": 5 },
+        { "name": "nitric_acid", "quantity": 3 },
+        { "name": "sulfuric_acid", "quantity": 5 }
+      ],
+      "outputItem": [
+        { "name": "non_fissile_uranium", "quantity": 20 },
+        { "name": "water", "quantity": 8 }
+      ],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_modular_frame", "quantity": 1 },
+        { "name": "aluminium_casing", "quantity": 50 },
+        { "name": "nitrogen_gas", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "fused_modular_frame", "quantity": 1 }],
+      "timeCreation": 40,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_modular_frame", "quantity": 1 },
+        { "name": "aluminium_ingot", "quantity": 50 },
+        { "name": "nitric_acid", "quantity": 8 },
+        { "name": "fuel", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "fused_modular_frame", "quantity": 1 }],
+      "timeCreation": 20,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 15 },
+        { "name": "coal_ore", "quantity": 10 },
+        { "name": "sulfuric_acid", "quantity": 5 },
+        { "name": "water", "quantity": 6 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 30 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "nitric_acid", "quantity": 12 },
+        { "name": "water", "quantity": 3 },
+        { "name": "iron_plate", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "nitric_acid", "quantity": 3 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_waste", "quantity": 15 },
+        { "name": "silica", "quantity": 10 },
+        { "name": "nitric_acid", "quantity": 6 },
+        { "name": "sulfuric_acid", "quantity": 6 }
+      ],
+      "outputItem": [
+        { "name": "non_fissile_uranium", "quantity": 20 },
+        { "name": "water", "quantity": 6 }
+      ],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 4 },
+        { "name": "sulfur_ore", "quantity": 3 },
+        { "name": "petroleum_coke", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 6 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rifle_ammo", "quantity": 25 },
+        { "name": "aluminium_casing", "quantity": 3 },
+        { "name": "turbofuel", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "tirbo_rifle_ammo", "quantity": 50 }],
+      "timeCreation": 12,
+      "category": "def"
+    }
   ]
 }
