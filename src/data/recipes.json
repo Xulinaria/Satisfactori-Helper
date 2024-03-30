@@ -707,5 +707,34 @@
       "timeCreation": 12,
       "category": "def"
     }
+  ],
+  "particle_accelerator": [
+    {
+      "inputItem": [
+        { "name": "copper_powder", "quantity": 200 },
+        { "name": "pressure_conversion_cube", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "nuclear_pasta", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "non_fissile_uranium", "quantity": 100 },
+        { "name": "uranium_waste", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "plutonium_pellet", "quantity": 30 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "non_fissile_uranium", "quantity": 150 },
+        { "name": "aluminium_casing", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "encased_uranium_cell", "quantity": 20 }],
+      "timeCreation": 120,
+      "category": "alt"
+    }
   ]
 }
