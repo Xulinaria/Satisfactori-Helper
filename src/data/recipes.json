@@ -374,6 +374,272 @@
       "category": "christmas"
     }
   ],
+  "refinery": [
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 12 },
+        { "name": "water", "quantity": 18 }
+      ],
+      "outputItem": [
+        { "name": "alumina_solution", "quantity": 12 },
+        { "name": "silica", "quantity": 5 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 4 },
+        { "name": "coal_ore", "quantity": 2 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 6 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "wire", "quantity": 5 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "cable", "quantity": 9 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 1 },
+        { "name": "packaged_water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 4 },
+        { "name": "petroleum_coke", "quantity": 4 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 20 },
+        { "name": "water", "quantity": 7 }
+      ],
+      "timeCreation": 4,
+      "category": "alt"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 6 }],
+      "outputItem": [
+        { "name": "fuel", "quantity": 4 },
+        { "name": "polymer_resin", "quantity": 3 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "heavy_oil_residue", "quantity": 4 },
+        { "name": "polymer_resin", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "solid_biofuel", "quantity": 6 },
+        { "name": "water", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "liquid_biofuel", "quantity": 4 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "heavy_oil_residue", "quantity": 4 }],
+      "outputItem": [{ "name": "petroleum_coke", "quantity": 12 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "plastic", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 1 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 1 },
+        { "name": "water", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "fabric", "quantity": 1 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 6 }],
+      "outputItem": [
+        { "name": "polymer_resin", "quantity": 13 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "caterium_ore", "quantity": 2 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "timeCreation": 5,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_ore", "quantity": 6 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 15 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 7 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 13 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal_ore", "quantity": 9 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "quartz_crystal", "quantity": 7 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rubber", "quantity": 6 },
+        { "name": "fuel", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "plastic", "quantity": 12 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "plastic", "quantity": 6 },
+        { "name": "fuel", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "rubber", "quantity": 12 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [{ "name": "heavy_oil_residue", "quantity": 6 }],
+      "outputItem": [{ "name": "fuel", "quantity": 4 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 6 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "plastic", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 4 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "rubber", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "rubber", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 10 },
+        { "name": "water", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "alumina_solution", "quantity": 12 }],
+      "timeCreation": 3,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "black_powder", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "smokeless_powder", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_ingot", "quantity": 3 },
+        { "name": "water", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "copper_sheet", "quantity": 3 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfur_ore", "quantity": 5 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "sulfuric_acid", "quantity": 5 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 5 },
+        { "name": "compacted_coal", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 4 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 6 },
+        { "name": "compacted_coal", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 5 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "limestone_ore", "quantity": 6 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "concrete", "quantity": 4 }],
+      "timeCreation": 3,
+      "category": "alt"
+    }
+  ],
   "packager": [
     {
       "inputItem": [
