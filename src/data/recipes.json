@@ -1,293 +1,1985 @@
 {
   "smelter": [
     {
-      "inputItem": [{ "name": "iron_ore" }],
-      "outputItem": [{ "name": "iron_ingot" }],
+      "inputItem": [{ "name": "iron_ore", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ore" }],
-      "outputItem": [{ "name": "copper_ingot" }],
+      "inputItem": [{ "name": "copper_ore", "quantity": 1 }],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "caterium_ore" }],
-      "outputItem": [{ "name": "caterium_ingot" }],
+      "inputItem": [{ "name": "caterium_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_scrap" }],
-      "outputItem": [{ "name": "aluminium_ingot" }],
+      "inputItem": [{ "name": "aluminium_scrap", "quantity": 2 }],
+      "outputItem": [{ "name": "aluminium_ingot", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "red_ball" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "red_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "blue_ball" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "blue_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     }
   ],
   "foundry": [
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "coal_ore" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 3 },
+        { "name": "coal_ore", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_scrap" }, { "name": "silica" }],
-      "outputItem": [{ "name": "aluminium_ingot" }],
+      "inputItem": [
+        { "name": "aluminium_scrap", "quantity": 6 },
+        { "name": "silica", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "aluminium_ingot", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ore" }, { "name": "iron_ore" }],
-      "outputItem": [{ "name": "copper_ingot" }],
+      "inputItem": [
+        { "name": "copper_ore", "quantity": 10 },
+        { "name": "iron_ore", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 20 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "petroleum_coke" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 15 },
+        { "name": "petroleum_coke", "quantity": 15 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 20 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "compacted_coal" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 6 },
+        { "name": "compacted_coal", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 10 }],
+      "timeCreation": 16,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }, { "name": "coal_ore" }],
-      "outputItem": [{ "name": "steel_ingot" }],
+      "inputItem": [
+        { "name": "iron_ingot", "quantity": 2 },
+        { "name": "coal_ore", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "timeCreation": 3,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ore" }, { "name": "copper_ore" }],
-      "outputItem": [{ "name": "iron_ingot" }],
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 2 },
+        { "name": "copper_ore", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "timeCreation": 6,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "red_ball" }, { "name": "copper_ingot" }],
-      "outputItem": [{ "name": "yellow_ball" }],
+      "inputItem": [
+        { "name": "red_ball", "quantity": 2 },
+        { "name": "copper_ingot", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "yellow_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "blue_ball" }, { "name": "iron_ingot" }],
-      "outputItem": [{ "name": "yellow_ball" }],
+      "inputItem": [
+        { "name": "blue_ball", "quantity": 3 },
+        { "name": "iron_ingot", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "silver_ball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     }
   ],
   "constructor": [
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "iron_plate" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "iron_plate", "quantity": 2 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "iron_rod" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "steel_beam" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 4 }],
+      "outputItem": [{ "name": "steel_beam", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "steel_pipe" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "steel_pipe", "quantity": 2 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "plastic" }],
-      "outputItem": [{ "name": "empty_canister" }],
+      "inputItem": [{ "name": "plastic", "quantity": 2 }],
+      "outputItem": [{ "name": "empty_canister", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "quartz_crystal_ore" }],
-      "outputItem": [{ "name": "quartz_crystal" }],
+      "inputItem": [{ "name": "quartz_crystal_ore", "quantity": 5 }],
+      "outputItem": [{ "name": "quartz_crystal", "quantity": 3 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_ingot" }],
-      "outputItem": [{ "name": "aluminium_casing" }],
+      "inputItem": [{ "name": "aluminium_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "aluminium_casing", "quantity": 2 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "quartz_crystal_ore" }],
-      "outputItem": [{ "name": "silica" }],
+      "inputItem": [{ "name": "quartz_crystal_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "silica", "quantity": 5 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "copper_sheet" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 2 }],
+      "outputItem": [{ "name": "copper_sheet", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "copper_powder" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 30 }],
+      "outputItem": [{ "name": "copper_powder", "quantity": 5 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "aluminium_ingot" }],
-      "outputItem": [{ "name": "empty_fluid_tank" }],
+      "inputItem": [{ "name": "aluminium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "empty_fluid_tank", "quantity": 1 }],
+      "timeCreation": 1,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "biomass" }],
-      "outputItem": [{ "name": "solid_biofuel" }],
+      "inputItem": [{ "name": "biomass", "quantity": 8 }],
+      "outputItem": [{ "name": "solid_biofuel", "quantity": 4 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "" }],
-      "outputItem": [{ "name": "alien_protein" }],
+      "inputItem": [{ "name": "", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "timeCreation": 3,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "alien_protein" }],
-      "outputItem": [{ "name": "alien_dna_capsule" }],
+      "inputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "outputItem": [{ "name": "alien_dna_capsule", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "alien_protein" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "alien_protein", "quantity": 1 }],
+      "outputItem": [{ "name": "biomass", "quantity": 100 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "caterium_ingot" }],
-      "outputItem": [{ "name": "quickwire" }],
+      "inputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "quickwire", "quantity": 5 }],
+      "timeCreation": 5,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "mycelia" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "mycelia", "quantity": 10 }],
+      "outputItem": [{ "name": "biomass", "quantity": 10 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "purple_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "purple_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 5 }],
+      "timeCreation": 24,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "yellow_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "yellow_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 2 }],
+      "timeCreation": 12,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "blue_power_slug" }],
-      "outputItem": [{ "name": "power_shard" }],
+      "inputItem": [{ "name": "blue_power_slug", "quantity": 1 }],
+      "outputItem": [{ "name": "power_shard", "quantity": 1 }],
+      "timeCreation": 8,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "leaves" }],
-      "outputItem": [{ "name": "biomass" }],
+      "inputItem": [{ "name": "leaves", "quantity": 10 }],
+      "outputItem": [{ "name": "biomass", "quantity": 5 }],
+      "timeCreation": 5,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "limestone_ore" }],
-      "outputItem": [{ "name": "concrete" }],
+      "inputItem": [{ "name": "limestone_ore", "quantity": 3 }],
+      "outputItem": [{ "name": "concrete", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_rod" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "outputItem": [{ "name": "screw", "quantity": 4 }],
+      "timeCreation": 6,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "wire" }],
-      "outputItem": [{ "name": "cable" }],
+      "inputItem": [{ "name": "wire", "quantity": 2 }],
+      "outputItem": [{ "name": "cable", "quantity": 1 }],
+      "timeCreation": 2,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "copper_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "copper_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "wire", "quantity": 2 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "iron_rod" }],
-      "outputItem": [{ "name": "iron_rebar" }],
+      "inputItem": [{ "name": "iron_rod", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rebar", "quantity": 1 }],
+      "timeCreation": 4,
       "category": "def"
     },
     {
-      "inputItem": [{ "name": "wood" }],
-      "outputItem": [{ "name": "coal_ore" }],
+      "inputItem": [{ "name": "wood", "quantity": 4 }],
+      "outputItem": [{ "name": "coal_ore", "quantity": 20 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "biomass" }],
-      "outputItem": [{ "name": "coal_ore" }],
+      "inputItem": [{ "name": "biomass", "quantity": 1 }],
+      "outputItem": [{ "name": "coal_ore", "quantity": 10 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "iron_rod" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "iron_rod", "quantity": 4 }],
+      "timeCreation": 5,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_ingot" }],
-      "outputItem": [{ "name": "empty_canister" }],
+      "inputItem": [{ "name": "steel_ingot", "quantity": 3 }],
+      "outputItem": [{ "name": "empty_canister", "quantity": 2 }],
+      "timeCreation": 3,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "caterium_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "outputItem": [{ "name": "wire", "quantity": 8 }],
+      "timeCreation": 4,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "wire" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "outputItem": [{ "name": "wire", "quantity": 9 }],
+      "timeCreation": 24,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "steel_beam" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "steel_beam", "quantity": 1 }],
+      "outputItem": [{ "name": "screw", "quantity": 52 }],
+      "timeCreation": 12,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "iron_ingot" }],
-      "outputItem": [{ "name": "screw" }],
+      "inputItem": [{ "name": "iron_ingot", "quantity": 5 }],
+      "outputItem": [{ "name": "screw", "quantity": 20 }],
+      "timeCreation": 24,
       "category": "alt"
     },
     {
-      "inputItem": [{ "name": "actual_snow" }],
-      "outputItem": [{ "name": "snowball" }],
+      "inputItem": [{ "name": "actual_snow", "quantity": 3 }],
+      "outputItem": [{ "name": "snowball", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "actual_snow" }],
+      "inputItem": [{ "name": "gift", "quantity": 5 }],
+      "outputItem": [{ "name": "actual_snow", "quantity": 2 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "thee_branch" }],
+      "inputItem": [{ "name": "gift", "quantity": 1 }],
+      "outputItem": [{ "name": "thee_branch", "quantity": 1 }],
+      "timeCreation": 6,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "bow" }],
+      "inputItem": [{ "name": "gift", "quantity": 2 }],
+      "outputItem": [{ "name": "bow", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
     },
     {
-      "inputItem": [{ "name": "gift" }],
-      "outputItem": [{ "name": "candy_cane" }],
+      "inputItem": [{ "name": "gift", "quantity": 3 }],
+      "outputItem": [{ "name": "candy_cane", "quantity": 1 }],
+      "timeCreation": 12,
       "category": "christmas"
+    }
+  ],
+  "assembler": [
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 3 },
+        { "name": "rubber", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "reinforced_iron_plate", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_sheet", "quantity": 5 },
+        { "name": "quickwire", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "ai_lititer", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "aluminium_ingot", "quantity": 3 },
+        { "name": "copper_ingot", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "alclad_aluminum_sheet", "quantity": 3 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "aluminium_ingot", "quantity": 20 },
+        { "name": "copper_ingot", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "aluminium_casing", "quantity": 15 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "adaptive_control_unit", "quantity": 2 },
+        { "name": "supercomputer", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "assembly_director_system", "quantity": 1 }],
+      "timeCreation": 80,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "stator", "quantity": 1 },
+        { "name": "cable", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "automated_wiring", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "coal_ore", "quantity": 1 },
+        { "name": "sulfur_ore", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "black_powder", "quantity": 2 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 3 },
+        { "name": "screw", "quantity": 56 }
+      ],
+      "outputItem": [{ "name": "modular_frame", "quantity": 2 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 18 },
+        { "name": "screw", "quantity": 50 }
+      ],
+      "outputItem": [{ "name": "reinforced_iron_plate", "quantity": 3 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "plastic", "quantity": 10 },
+        { "name": "quickwire", "quantity": 30 }
+      ],
+      "outputItem": [{ "name": "circuit_board", "quantity": 7 }],
+      "timeCreation": 48,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal_ore", "quantity": 3 },
+        { "name": "limestone_ore", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "silica", "quantity": 7 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_sheet", "quantity": 2 },
+        { "name": "plastic", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "circuit_board", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nobelisk", "quantity": 3 },
+        { "name": "smokeless_powder", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "cluster_nobelisk", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 2 },
+        { "name": "copper_sheet", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "empty_canister", "quantity": 4 }],
+      "timeCreation": 4,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_ingot", "quantity": 10 },
+        { "name": "plastic", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "iron_plate", "quantity": 15 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "coal_ore", "quantity": 5 },
+        { "name": "sulfur_ore", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "compacted_coal", "quantity": 5 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_sheet", "quantity": 6 },
+        { "name": "screw", "quantity": 52 }
+      ],
+      "outputItem": [{ "name": "rotor", "quantity": 3 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "circuit_board", "quantity": 8 },
+        { "name": "crystal_oscillator", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "computer", "quantity": 3 }],
+      "timeCreation": 64,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "electromagnetic_control_rod", "quantity": 1 },
+        { "name": "rotor", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "motor", "quantity": 2 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rubber", "quantity": 6 },
+        { "name": "petroleum_coke", "quantity": 9 }
+      ],
+      "outputItem": [{ "name": "circuit_board", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "stator", "quantity": 2 },
+        { "name": "high_speed_connector", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "electromagnetic_control_rod", "quantity": 2 }],
+      "timeCreation": 15,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "stator", "quantity": 3 },
+        { "name": "ai_lititer", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "electromagnetic_control_rod", "quantity": 2 }],
+      "timeCreation": 30,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_beam", "quantity": 4 },
+        { "name": "concrete", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "encased_industrial_beam", "quantity": 1 }],
+      "timeCreation": 10,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_pipe", "quantity": 7 },
+        { "name": "concrete", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "encased_industrial_beam", "quantity": 1 }],
+      "timeCreation": 15,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "plutonium_pellet", "quantity": 2 },
+        { "name": "concrete", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "encased_plutonium_cell", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "mycelia", "quantity": 1 },
+        { "name": "biomass", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "fabric", "quantity": 1 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "tree_branch", "quantity": 4 },
+        { "name": "bow", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "fancy_fireworks", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "tree_branch", "quantity": 15 },
+        { "name": "ornament_bundle", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "decoration", "quantity": 2 }],
+      "timeCreation": 60,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "yellow_ball", "quantity": 1 },
+        { "name": "silver_ball", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "ornament_bundle", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "decoration", "quantity": 5 },
+        { "name": "candy_cane", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "wonder_star", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfur_ore", "quantity": 2 },
+        { "name": "compacted_coal", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "black_powder", "quantity": 4 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "silica", "quantity": 3 },
+        { "name": "limestone_ore", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "concrete", "quantity": 10 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "caterium_ingot", "quantity": 1 },
+        { "name": "copper_ingot", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "quickwire", "quantity": 12 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_ingot", "quantity": 4 },
+        { "name": "caterium_ingot", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "wire", "quantity": 30 }],
+      "timeCreation": 20,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "nobelisk", "quantity": 1 },
+        { "name": "biomass", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "gas_nobelisk", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "aluminium_casing", "quantity": 3 },
+        { "name": "rubber", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "heat_sink", "quantity": 1 }],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "alclad_aluminum_sheet", "quantity": 5 },
+        { "name": "copper_sheet", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "heat_sink", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "rifle_ammo", "quantity": 20 },
+        { "name": "high_speed_connector", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "homing_rifle_ammo", "quantity": 10 }],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "wire", "quantity": 9 },
+        { "name": "rubber", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "cable", "quantity": 20 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 3 },
+        { "name": "iron_rod", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "modular_frame", "quantity": 2 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "rotor", "quantity": 2 },
+        { "name": "stator", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "motor", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_pipe", "quantity": 2 },
+        { "name": "black_powder", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "nobelisk", "quantity": 1 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "radio_control_unit", "quantity": 3 },
+        { "name": "cooling_system", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "supercomputer", "quantity": 1 }],
+      "timeCreation": 20,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_plutonium_cell", "quantity": 20 },
+        { "name": "pressure_conversion_cube", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "plutonium_fuel_rod", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "fused_modular_frame", "quantity": 1 },
+        { "name": "radio_control_unit", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "pressure_conversion_cube", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nobelisk", "quantity": 5 },
+        { "name": "crystal_oscillator", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "pulse_nobelisk", "quantity": 5 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "quickwire", "quantity": 3 },
+        { "name": "rubber", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "cable", "quantity": 11 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_pipe", "quantity": 4 },
+        { "name": "quickwire", "quantity": 15 }
+      ],
+      "outputItem": [{ "name": "stator", "quantity": 2 }],
+      "timeCreation": 15,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 6 },
+        { "name": "screw", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "reinforced_iron_plate", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_sheet", "quantity": 3 },
+        { "name": "smokeless_powder", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "rifle_ammo", "quantity": 15 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_rod", "quantity": 5 },
+        { "name": "screw", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "rotor", "quantity": 1 }],
+      "timeCreation": 15,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "limestone_ore", "quantity": 10 },
+        { "name": "rubber", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "concrete", "quantity": 9 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_rebar", "quantity": 2 },
+        { "name": "quartz_crystal", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "shatter_rebar", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_sheet", "quantity": 11 },
+        { "name": "silica", "quantity": 11 }
+      ],
+      "outputItem": [{ "name": "circuit_board", "quantity": 5 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 1 },
+        { "name": "rotor", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "smart_plating", "quantity": 1 }],
+      "timeCreation": 30,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "tree_branch", "quantity": 3 },
+        { "name": "actual_snow", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "sparkly_fireworks", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_pipe", "quantity": 3 },
+        { "name": "wire", "quantity": 8 }
+      ],
+      "outputItem": [{ "name": "stator", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_ingot", "quantity": 3 },
+        { "name": "plastic", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "iron_plate", "quantity": 18 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_pipe", "quantity": 2 },
+        { "name": "wire", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "rotor", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 2 },
+        { "name": "steel_pipe", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "modular_frame", "quantity": 3 }],
+      "timeCreation": 60,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 10 },
+        { "name": "wire", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "reinforced_iron_plate", "quantity": 3 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_rebar", "quantity": 1 },
+        { "name": "quickwire", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "stun_rebar", "quantity": 1 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "tree_branch", "quantity": 6 },
+        { "name": "candy_cane", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "sweet_fireworks", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "christmas"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 1 },
+        { "name": "steel_beam", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "versatile_framework", "quantity": 2 }],
+      "timeCreation": 24,
+      "category": "def"
+    }
+  ],
+  "manufacturer": [
+    {
+      "inputItem": [
+        { "name": "automated_wiring", "quantity": 15 },
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "heavy_modular_frame", "quantity": 2 },
+        { "name": "computer", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "adaptive_control_unit", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 1 },
+        { "name": "steel_pipe", "quantity": 4 },
+        { "name": "iron_rod", "quantity": 4 },
+        { "name": "iron_plate", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "portable_miner", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "stator", "quantity": 2 },
+        { "name": "wire", "quantity": 40 },
+        { "name": "high_speed_connector", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "automated_wiring", "quantity": 4 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 3 },
+        { "name": "iron_rod", "quantity": 1 },
+        { "name": "wire", "quantity": 15 },
+        { "name": "cable", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "beacon", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "circuit_board", "quantity": 7 },
+        { "name": "quickwire", "quantity": 28 },
+        { "name": "rubber", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "computer", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfur_ore", "quantity": 6 },
+        { "name": "alclad_aluminum_sheet", "quantity": 7 },
+        { "name": "plastic", "quantity": 8 },
+        { "name": "wire", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "battery", "quantity": 4 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "cable", "quantity": 9 },
+        { "name": "plastic", "quantity": 18 },
+        { "name": "screw", "quantity": 52 }
+      ],
+      "outputItem": [{ "name": "computer", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_beam", "quantity": 4 },
+        { "name": "steel_pipe", "quantity": 16 },
+        { "name": "crystal_oscillator", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "beacon", "quantity": 20 }],
+      "timeCreation": 120,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal", "quantity": 36 },
+        { "name": "cable", "quantity": 28 },
+        { "name": "reinforced_iron_plate", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "crystal_oscillator", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_rebar", "quantity": 2 },
+        { "name": "smokeless_powder", "quantity": 2 },
+        { "name": "steel_pipe", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "explosive_rebar", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 1 },
+        { "name": "steel_beam", "quantity": 6 },
+        { "name": "rubber", "quantity": 8 }
+      ],
+      "outputItem": [{ "name": "versatile_framework", "quantity": 2 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "coal_ore", "quantity": 5 },
+        { "name": "rubber", "quantity": 2 },
+        { "name": "fabric", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "gas_filter", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 8 },
+        { "name": "encased_industrial_beam", "quantity": 10 },
+        { "name": "steel_pipe", "quantity": 36 },
+        { "name": "concrete", "quantity": 22 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 3 }],
+      "timeCreation": 64,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 5 },
+        { "name": "encased_industrial_beam", "quantity": 3 },
+        { "name": "rubber", "quantity": 20 },
+        { "name": "screw", "quantity": 104 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 5 },
+        { "name": "steel_pipe", "quantity": 15 },
+        { "name": "encased_industrial_beam", "quantity": 5 },
+        { "name": "screw", "quantity": 100 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 1 }],
+      "timeCreation": 30,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "quickwire", "quantity": 56 },
+        { "name": "cable", "quantity": 10 },
+        { "name": "circuit_board", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "high_speed_connector", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 5 },
+        { "name": "silica", "quantity": 3 },
+        { "name": "sulfur_ore", "quantity": 5 },
+        { "name": "quickwire", "quantity": 15 }
+      ],
+      "outputItem": [{ "name": "encased_uranium_cell", "quantity": 4 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal", "quantity": 10 },
+        { "name": "rubber", "quantity": 7 },
+        { "name": "ai_lititer", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "crystal_oscillator", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "gas_filter", "quantity": 1 },
+        { "name": "quickwire", "quantity": 8 },
+        { "name": "aluminium_casing", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "lodine_infused_filter", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "versatile_framework", "quantity": 5 },
+        { "name": "electromagnetic_control_rod", "quantity": 2 },
+        { "name": "battery", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "magnetic_field_generator", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 2 },
+        { "name": "rubber", "quantity": 15 },
+        { "name": "smart_plating", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "modular_endine", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nobelisk", "quantity": 5 },
+        { "name": "encased_plutonium_cell", "quantity": 20 },
+        { "name": "smokeless_powder", "quantity": 10 },
+        { "name": "ai_lititer", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "nuke_nobelisk", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 1 },
+        { "name": "rotor", "quantity": 1 },
+        { "name": "plastic", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "smart_plating", "quantity": 2 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_plutonium_cell", "quantity": 30 },
+        { "name": "steel_beam", "quantity": 18 },
+        { "name": "electromagnetic_control_rod", "quantity": 6 },
+        { "name": "heat_sink", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "plutonium_fuel_rod", "quantity": 1 }],
+      "timeCreation": 240,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 4 },
+        { "name": "high_speed_connector", "quantity": 2 },
+        { "name": "quartz_crystal", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "crystal_oscillator", "quantity": 1 },
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "aluminium_casing", "quantity": 60 },
+        { "name": "rubber", "quantity": 30 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 3 }],
+      "timeCreation": 40,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "aluminium_casing", "quantity": 32 },
+        { "name": "crystal_oscillator", "quantity": 1 },
+        { "name": "computer", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 2 }],
+      "timeCreation": 48,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "rotor", "quantity": 3 },
+        { "name": "stator", "quantity": 3 },
+        { "name": "crystal_oscillator", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "motor", "quantity": 6 }],
+      "timeCreation": 48,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quickwire", "quantity": 60 },
+        { "name": "silica", "quantity": 25 },
+        { "name": "circuit_board", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "high_speed_connector", "quantity": 2 }],
+      "timeCreation": 40,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "computer", "quantity": 3 },
+        { "name": "electromagnetic_control_rod", "quantity": 2 },
+        { "name": "battery", "quantity": 20 },
+        { "name": "wire", "quantity": 45 }
+      ],
+      "outputItem": [{ "name": "supercomputer", "quantity": 2 }],
+      "timeCreation": 50,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "computer", "quantity": 2 },
+        { "name": "ai_lititer", "quantity": 2 },
+        { "name": "high_speed_connector", "quantity": 3 },
+        { "name": "plastic", "quantity": 28 }
+      ],
+      "outputItem": [{ "name": "supercomputer", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_endine", "quantity": 5 },
+        { "name": "turbo_motor", "quantity": 2 },
+        { "name": "cooling_system", "quantity": 6 },
+        { "name": "fused_modular_frame", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "thermal_propulsion_rocket", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 7 },
+        { "name": "radio_control_unit", "quantity": 9 },
+        { "name": "electromagnetic_control_rod", "quantity": 5 },
+        { "name": "rotor", "quantity": 7 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 3 }],
+      "timeCreation": 64,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "cooling_system", "quantity": 4 },
+        { "name": "radio_control_unit", "quantity": 2 },
+        { "name": "motor", "quantity": 4 },
+        { "name": "rubber", "quantity": 24 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 4 },
+        { "name": "pressure_conversion_cube", "quantity": 1 },
+        { "name": "packaged_nitrogen_gas", "quantity": 24 },
+        { "name": "stator", "quantity": 8 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 2 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rifle_ammo", "quantity": 25 },
+        { "name": "aluminium_casing", "quantity": 3 },
+        { "name": "packaged_turbofuel", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "turbo_rifle_ammo", "quantity": 50 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_uranium_cell", "quantity": 50 },
+        { "name": "encased_industrial_beam", "quantity": 3 },
+        { "name": "electromagnetic_control_rod", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "uranium_fuel_rod", "quantity": 1 }],
+      "timeCreation": 150,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_uranium_cell", "quantity": 100 },
+        { "name": "electromagnetic_control_rod", "quantity": 10 },
+        { "name": "crystal_oscillator", "quantity": 3 },
+        { "name": "beacon", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "uranium_fuel_rod", "quantity": 3 }],
+      "timeCreation": 300,
+      "category": "alt"
+    }
+  ],
+  "refinery": [
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 12 },
+        { "name": "water", "quantity": 18 }
+      ],
+      "outputItem": [
+        { "name": "alumina_solution", "quantity": 12 },
+        { "name": "silica", "quantity": 5 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 4 },
+        { "name": "coal_ore", "quantity": 2 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 6 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "wire", "quantity": 5 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "cable", "quantity": 9 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 1 },
+        { "name": "packaged_water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 4 },
+        { "name": "petroleum_coke", "quantity": 4 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 20 },
+        { "name": "water", "quantity": 7 }
+      ],
+      "timeCreation": 4,
+      "category": "alt"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 6 }],
+      "outputItem": [
+        { "name": "fuel", "quantity": 4 },
+        { "name": "polymer_resin", "quantity": 3 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "heavy_oil_residue", "quantity": 4 },
+        { "name": "polymer_resin", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "solid_biofuel", "quantity": 6 },
+        { "name": "water", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "liquid_biofuel", "quantity": 4 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "heavy_oil_residue", "quantity": 4 }],
+      "outputItem": [{ "name": "petroleum_coke", "quantity": 12 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "plastic", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 1 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 1 },
+        { "name": "water", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "fabric", "quantity": 1 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 6 }],
+      "outputItem": [
+        { "name": "polymer_resin", "quantity": 13 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "caterium_ore", "quantity": 2 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "caterium_ingot", "quantity": 1 }],
+      "timeCreation": 5,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_ore", "quantity": 6 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "copper_ingot", "quantity": 15 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_ore", "quantity": 7 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "iron_ingot", "quantity": 13 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal_ore", "quantity": 9 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "quartz_crystal", "quantity": 7 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rubber", "quantity": 6 },
+        { "name": "fuel", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "plastic", "quantity": 12 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "plastic", "quantity": 6 },
+        { "name": "fuel", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "rubber", "quantity": 12 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [{ "name": "heavy_oil_residue", "quantity": 6 }],
+      "outputItem": [{ "name": "fuel", "quantity": 4 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 6 },
+        { "name": "water", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "plastic", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "polymer_resin", "quantity": 4 },
+        { "name": "water", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "rubber", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "crude_oil", "quantity": 3 }],
+      "outputItem": [
+        { "name": "rubber", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 10 },
+        { "name": "water", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "alumina_solution", "quantity": 12 }],
+      "timeCreation": 3,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "black_powder", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "smokeless_powder", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "copper_ingot", "quantity": 3 },
+        { "name": "water", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "copper_sheet", "quantity": 3 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfur_ore", "quantity": 5 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "sulfuric_acid", "quantity": 5 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 5 },
+        { "name": "compacted_coal", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 4 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 6 },
+        { "name": "compacted_coal", "quantity": 4 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 5 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "limestone_ore", "quantity": 6 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "concrete", "quantity": 4 }],
+      "timeCreation": 3,
+      "category": "alt"
+    }
+  ],
+  "packager": [
+    {
+      "inputItem": [
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_alumina_solution", "quantity": 2 }],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_heavy_oil_residue", "quantity": 2 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "liquid_biofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_liquid_biofuel", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nitric_acid", "quantity": 1 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "packaged_nitric_acid", "quantity": 1 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nitrogen_gas", "quantity": 4 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "packaged_nitrogen_gas", "quantity": 1 }],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "crude_oil", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_oil", "quantity": 2 }],
+      "timeCreation": 4,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfuric_acid", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_sulfuric_acid", "quantity": 2 }],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "turbofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_turbofuel", "quantity": 2 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "water", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "packaged_water", "quantity": 2 }],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_alumina_solution", "quantity": 2 }],
+      "outputItem": [
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_fuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_heavy_oil_residue", "quantity": 2 }],
+      "outputItem": [
+        { "name": "heavy_oil_residue", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_liquid_biofuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "liquid_biofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_nitric_acid", "quantity": 1 }],
+      "outputItem": [
+        { "name": "nitric_acid", "quantity": 1 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_nitrogen_gas", "quantity": 1 }],
+      "outputItem": [
+        { "name": "nitrogen_gas", "quantity": 4 },
+        { "name": "empty_fluid_tank", "quantity": 1 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_oil", "quantity": 2 }],
+      "outputItem": [
+        { "name": "crude_oil", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 2,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_sulfuric_acid", "quantity": 1 }],
+      "outputItem": [
+        { "name": "sulfuric_acid", "quantity": 1 },
+        { "name": "empty_canister", "quantity": 1 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_turbofuel", "quantity": 2 }],
+      "outputItem": [
+        { "name": "turbofuel", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [{ "name": "packaged_water", "quantity": 2 }],
+      "outputItem": [
+        { "name": "water", "quantity": 2 },
+        { "name": "empty_canister", "quantity": 2 }
+      ],
+      "timeCreation": 1,
+      "category": "def"
+    }
+  ],
+  "blender": [
+    {
+      "inputItem": [
+        { "name": "sulfuric_acid", "quantity": 2.5 },
+        { "name": "alumina_solution", "quantity": 2 },
+        { "name": "aluminium_casing", "quantity": 1 }
+      ],
+      "outputItem": [
+        { "name": "battery", "quantity": 1 },
+        { "name": "water", "quantity": 1.5 }
+      ],
+      "timeCreation": 3,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 5 },
+        { "name": "motor", "quantity": 1 },
+        { "name": "nitrogen_gas", "quantity": 24 }
+      ],
+      "outputItem": [{ "name": "cooling_system", "quantity": 2 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 2 },
+        { "name": "rubber", "quantity": 2 },
+        { "name": "water", "quantity": "5" },
+        { "name": "nitrogen_gas", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "cooling_system", "quantity": 1 }],
+      "timeCreation": 10,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_oil_residue", "quantity": 5 },
+        { "name": "water", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "fuel", "quantity": 10 }],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 10 },
+        { "name": "concrete", "quantity": 3 },
+        { "name": "sulfuric_acid", "quantity": 8 }
+      ],
+      "outputItem": [
+        { "name": "encased_uranium_cell", "quantity": 5 },
+        { "name": "sulfuric_acid", "quantity": 2 }
+      ],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 5 },
+        { "name": "uranium_waste", "quantity": 5 },
+        { "name": "nitric_acid", "quantity": 3 },
+        { "name": "sulfuric_acid", "quantity": 5 }
+      ],
+      "outputItem": [
+        { "name": "non_fissile_uranium", "quantity": 20 },
+        { "name": "water", "quantity": 8 }
+      ],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_modular_frame", "quantity": 1 },
+        { "name": "aluminium_casing", "quantity": 50 },
+        { "name": "nitrogen_gas", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "fused_modular_frame", "quantity": 1 }],
+      "timeCreation": 40,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heavy_modular_frame", "quantity": 1 },
+        { "name": "aluminium_ingot", "quantity": 50 },
+        { "name": "nitric_acid", "quantity": 8 },
+        { "name": "fuel", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "fused_modular_frame", "quantity": 1 }],
+      "timeCreation": 20,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "bauxite_ore", "quantity": 15 },
+        { "name": "coal_ore", "quantity": 10 },
+        { "name": "sulfuric_acid", "quantity": 5 },
+        { "name": "water", "quantity": 6 }
+      ],
+      "outputItem": [
+        { "name": "aluminium_scrap", "quantity": 30 },
+        { "name": "water", "quantity": 5 }
+      ],
+      "timeCreation": 6,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "nitric_acid", "quantity": 12 },
+        { "name": "water", "quantity": 3 },
+        { "name": "iron_plate", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "nitric_acid", "quantity": 3 }],
+      "timeCreation": 6,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_waste", "quantity": 15 },
+        { "name": "silica", "quantity": 10 },
+        { "name": "nitric_acid", "quantity": 6 },
+        { "name": "sulfuric_acid", "quantity": 6 }
+      ],
+      "outputItem": [
+        { "name": "non_fissile_uranium", "quantity": 20 },
+        { "name": "water", "quantity": 6 }
+      ],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "fuel", "quantity": 2 },
+        { "name": "heavy_oil_residue", "quantity": 4 },
+        { "name": "sulfur_ore", "quantity": 3 },
+        { "name": "petroleum_coke", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "turbofuel", "quantity": 6 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rifle_ammo", "quantity": 25 },
+        { "name": "aluminium_casing", "quantity": 3 },
+        { "name": "turbofuel", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "tirbo_rifle_ammo", "quantity": 50 }],
+      "timeCreation": 12,
+      "category": "def"
+    }
+  ],
+  "particle_accelerator": [
+    {
+      "inputItem": [
+        { "name": "copper_powder", "quantity": 200 },
+        { "name": "pressure_conversion_cube", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "nuclear_pasta", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "non_fissile_uranium", "quantity": 100 },
+        { "name": "uranium_waste", "quantity": 25 }
+      ],
+      "outputItem": [{ "name": "plutonium_pellet", "quantity": 30 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "non_fissile_uranium", "quantity": 150 },
+        { "name": "aluminium_casing", "quantity": 20 }
+      ],
+      "outputItem": [{ "name": "encased_uranium_cell", "quantity": 20 }],
+      "timeCreation": 120,
+      "category": "alt"
     }
   ]
 }
