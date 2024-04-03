@@ -533,7 +533,7 @@
         { "name": "circuit_board", "quantity": 8 },
         { "name": "crystal_oscillator", "quantity": 3 }
       ],
-      "outputItem": [{ "name": "comouter", "quantity": 3 }],
+      "outputItem": [{ "name": "computer", "quantity": 3 }],
       "timeCreation": 64,
       "category": "alt"
     },
@@ -950,6 +950,407 @@
       "outputItem": [{ "name": "versatile_framework", "quantity": 2 }],
       "timeCreation": 24,
       "category": "def"
+    }
+  ],
+  "manufacturer": [
+    {
+      "inputItem": [
+        { "name": "automated_wiring", "quantity": 15 },
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "heavy_modular_frame", "quantity": 2 },
+        { "name": "computer", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "adaptive_control_unit", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 1 },
+        { "name": "steel_pipe", "quantity": 4 },
+        { "name": "iron_rod", "quantity": 4 },
+        { "name": "iron_plate", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "portable_miner", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "stator", "quantity": 2 },
+        { "name": "wire", "quantity": 40 },
+        { "name": "high_speed_connector", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "automated_wiring", "quantity": 4 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_plate", "quantity": 3 },
+        { "name": "iron_rod", "quantity": 1 },
+        { "name": "wire", "quantity": 15 },
+        { "name": "cable", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "beacon", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "circuit_board", "quantity": 7 },
+        { "name": "quickwire", "quantity": 28 },
+        { "name": "rubber", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "computer", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "sulfur_ore", "quantity": 6 },
+        { "name": "alclad_aluminum_sheet", "quantity": 7 },
+        { "name": "plastic", "quantity": 8 },
+        { "name": "wire", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "battery", "quantity": 4 }],
+      "timeCreation": 8,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "cable", "quantity": 9 },
+        { "name": "plastic", "quantity": 18 },
+        { "name": "screw", "quantity": 52 }
+      ],
+      "outputItem": [{ "name": "computer", "quantity": 1 }],
+      "timeCreation": 24,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "steel_beam", "quantity": 4 },
+        { "name": "steel_pipe", "quantity": 16 },
+        { "name": "crystal_oscillator", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "beacon", "quantity": 20 }],
+      "timeCreation": 120,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal", "quantity": 36 },
+        { "name": "cable", "quantity": 28 },
+        { "name": "reinforced_iron_plate", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "crystal_oscillator", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "iron_rebar", "quantity": 2 },
+        { "name": "smokeless_powder", "quantity": 2 },
+        { "name": "steel_pipe", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "explosive_rebar", "quantity": 1 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 1 },
+        { "name": "steel_beam", "quantity": 6 },
+        { "name": "rubber", "quantity": 8 }
+      ],
+      "outputItem": [{ "name": "versatile_framework", "quantity": 2 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "coal_ore", "quantity": 5 },
+        { "name": "rubber", "quantity": 2 },
+        { "name": "fabric", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "gas_filter", "quantity": 1 }],
+      "timeCreation": 8,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 8 },
+        { "name": "encased_industrial_beam", "quantity": 10 },
+        { "name": "steel_pipe", "quantity": 36 },
+        { "name": "concrete", "quantity": 22 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 3 }],
+      "timeCreation": 64,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 5 },
+        { "name": "encased_industrial_beam", "quantity": 3 },
+        { "name": "rubber", "quantity": 20 },
+        { "name": "screw", "quantity": 104 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_frame", "quantity": 5 },
+        { "name": "steel_pipe", "quantity": 15 },
+        { "name": "encased_industrial_beam", "quantity": 5 },
+        { "name": "screw", "quantity": 100 }
+      ],
+      "outputItem": [{ "name": "heavy_modular_frame", "quantity": 1 }],
+      "timeCreation": 30,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "quickwire", "quantity": 56 },
+        { "name": "cable", "quantity": 10 },
+        { "name": "circuit_board", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "high_speed_connector", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "uranium_ore", "quantity": 5 },
+        { "name": "silica", "quantity": 3 },
+        { "name": "sulfur_ore", "quantity": 5 },
+        { "name": "quickwire", "quantity": 15 }
+      ],
+      "outputItem": [{ "name": "encased_uranium_cell", "quantity": 4 }],
+      "timeCreation": 12,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quartz_crystal", "quantity": 10 },
+        { "name": "rubber", "quantity": 7 },
+        { "name": "ai_lititer", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "crystal_oscillator", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "gas_filter", "quantity": 1 },
+        { "name": "quickwire", "quantity": 8 },
+        { "name": "aluminium_casing", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "lodine_infused_filter", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "versatile_framework", "quantity": 5 },
+        { "name": "electromagnetic_control_rod", "quantity": 2 },
+        { "name": "battery", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "magnetic_field_generator", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 2 },
+        { "name": "rubber", "quantity": 15 },
+        { "name": "smart_plating", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "modular_endine", "quantity": 1 }],
+      "timeCreation": 60,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "nobelisk", "quantity": 5 },
+        { "name": "encased_plutonium_cell", "quantity": 20 },
+        { "name": "smokeless_powder", "quantity": 10 },
+        { "name": "ai_lititer", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "nuke_nobelisk", "quantity": 1 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "reinforced_iron_plate", "quantity": 1 },
+        { "name": "rotor", "quantity": 1 },
+        { "name": "plastic", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "smart_plating", "quantity": 2 }],
+      "timeCreation": 24,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_plutonium_cell", "quantity": 30 },
+        { "name": "steel_beam", "quantity": 18 },
+        { "name": "electromagnetic_control_rod", "quantity": 6 },
+        { "name": "heat_sink", "quantity": 10 }
+      ],
+      "outputItem": [{ "name": "plutonium_fuel_rod", "quantity": 1 }],
+      "timeCreation": 240,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "heat_sink", "quantity": 4 },
+        { "name": "high_speed_connector", "quantity": 2 },
+        { "name": "quartz_crystal", "quantity": 12 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 1 }],
+      "timeCreation": 16,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "crystal_oscillator", "quantity": 1 },
+        { "name": "circuit_board", "quantity": 10 },
+        { "name": "aluminium_casing", "quantity": 60 },
+        { "name": "rubber", "quantity": 30 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 3 }],
+      "timeCreation": 40,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "aluminium_casing", "quantity": 32 },
+        { "name": "crystal_oscillator", "quantity": 1 },
+        { "name": "computer", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "radio_control_unit", "quantity": 2 }],
+      "timeCreation": 48,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "rotor", "quantity": 3 },
+        { "name": "stator", "quantity": 3 },
+        { "name": "crystal_oscillator", "quantity": 1 }
+      ],
+      "outputItem": [{ "name": "motor", "quantity": 6 }],
+      "timeCreation": 48,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "quickwire", "quantity": 60 },
+        { "name": "silica", "quantity": 25 },
+        { "name": "circuit_board", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "high_speed_connector", "quantity": 2 }],
+      "timeCreation": 40,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "computer", "quantity": 3 },
+        { "name": "electromagnetic_control_rod", "quantity": 2 },
+        { "name": "battery", "quantity": 20 },
+        { "name": "wire", "quantity": 45 }
+      ],
+      "outputItem": [{ "name": "supercomputer", "quantity": 2 }],
+      "timeCreation": 50,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "computer", "quantity": 2 },
+        { "name": "ai_lititer", "quantity": 2 },
+        { "name": "high_speed_connector", "quantity": 3 },
+        { "name": "plastic", "quantity": 28 }
+      ],
+      "outputItem": [{ "name": "supercomputer", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "modular_endine", "quantity": 5 },
+        { "name": "turbo_motor", "quantity": 2 },
+        { "name": "cooling_system", "quantity": 6 },
+        { "name": "fused_modular_frame", "quantity": 2 }
+      ],
+      "outputItem": [{ "name": "thermal_propulsion_rocket", "quantity": 2 }],
+      "timeCreation": 120,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 7 },
+        { "name": "radio_control_unit", "quantity": 9 },
+        { "name": "electromagnetic_control_rod", "quantity": 5 },
+        { "name": "rotor", "quantity": 7 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 3 }],
+      "timeCreation": 64,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "cooling_system", "quantity": 4 },
+        { "name": "radio_control_unit", "quantity": 2 },
+        { "name": "motor", "quantity": 4 },
+        { "name": "rubber", "quantity": 24 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 1 }],
+      "timeCreation": 32,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "motor", "quantity": 4 },
+        { "name": "pressure_conversion_cube", "quantity": 1 },
+        { "name": "packaged_nitrogen_gas", "quantity": 24 },
+        { "name": "stator", "quantity": 8 }
+      ],
+      "outputItem": [{ "name": "turbo_motor", "quantity": 2 }],
+      "timeCreation": 32,
+      "category": "alt"
+    },
+    {
+      "inputItem": [
+        { "name": "rifle_ammo", "quantity": 25 },
+        { "name": "aluminium_casing", "quantity": 3 },
+        { "name": "packaged_turbofuel", "quantity": 3 }
+      ],
+      "outputItem": [{ "name": "turbo_rifle_ammo", "quantity": 50 }],
+      "timeCreation": 12,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_uranium_cell", "quantity": 50 },
+        { "name": "encased_industrial_beam", "quantity": 3 },
+        { "name": "electromagnetic_control_rod", "quantity": 5 }
+      ],
+      "outputItem": [{ "name": "uranium_fuel_rod", "quantity": 1 }],
+      "timeCreation": 150,
+      "category": "def"
+    },
+    {
+      "inputItem": [
+        { "name": "encased_uranium_cell", "quantity": 100 },
+        { "name": "electromagnetic_control_rod", "quantity": 10 },
+        { "name": "crystal_oscillator", "quantity": 3 },
+        { "name": "beacon", "quantity": 6 }
+      ],
+      "outputItem": [{ "name": "uranium_fuel_rod", "quantity": 3 }],
+      "timeCreation": 300,
+      "category": "alt"
     }
   ],
   "refinery": [
@@ -1408,7 +1809,7 @@
         { "name": "aluminium_casing", "quantity": 1 }
       ],
       "outputItem": [
-        { "name": "battary", "quantity": 1 },
+        { "name": "battery", "quantity": 1 },
         { "name": "water", "quantity": 1.5 }
       ],
       "timeCreation": 3,
