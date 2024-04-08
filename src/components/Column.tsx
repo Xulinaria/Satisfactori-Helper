@@ -3,7 +3,7 @@ import { InputOutputManager } from '../types/InputOutputManager'
 import { useAppDispatch } from '../redux/hooks'
 import ItemComponent from './Item'
 import Build from './Build'
-import { ItemSidebarM } from '../types/ItemSidebar'
+import { ItemSidebarM } from '../types/ItemSidebar.types'
 import { addBuild, addItem } from '../redux/BoardSlice/slice'
 import { Item } from '../types/Item.types'
 
