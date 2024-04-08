@@ -1,4 +1,4 @@
-import { Item } from './Item.types'
+import { Item } from './item.types'
 
 export interface Recipe {
   inputItem: Item[]

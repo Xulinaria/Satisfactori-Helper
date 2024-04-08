@@ -1,11 +1,11 @@
 import { useDrop } from 'react-dnd'
-import { InputOutputManager } from '../types/InputOutputManager.types'
+import { InputOutputManager } from '../types/inputOutputManager.types'
 import { useAppDispatch } from '../redux/hooks'
 import ItemComponent from './Item'
 import Build from './Build'
-import { ItemSidebarM } from '../types/ItemSidebar.types'
+import { ItemSidebarM } from '../types/itemSidebar.types'
 import { addBuild, addItem } from '../redux/BoardSlice/slice'
-import { Item } from '../types/Item.types'
+import { Item } from '../types/item.types'
 
 const Column = ({
   column,

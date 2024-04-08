@@ -1,5 +1,5 @@
-import { Recipe } from './Recipe.types'
-import { Item } from './Item.types'
+import { Recipe } from './recipe.types'
+import { Item } from './item.types'
 
 export interface InputOutputManager {
   inputItem?: Item[]

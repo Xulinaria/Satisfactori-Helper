@@ -1,4 +1,4 @@
-import { Item } from '../types/Item.types'
+import { Item } from '../types/item.types'
 
 const ItemC = ({ item }: { item: Item }) => {
   return (
