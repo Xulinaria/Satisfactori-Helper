@@ -1,5 +1,5 @@
 import { useDrag } from 'react-dnd'
-import { ItemSidebarM } from '../models/ItemSidebar'
+import { ItemSidebarM } from '../types/ItemSidebar'
 
 const ItemSidebar = ({ item }: { item: ItemSidebarM }) => {
   const [, dragRef] = useDrag({

@@ -1,4 +1,4 @@
-import { InputOutputManager } from '../models/InputOutputManager'
+import { InputOutputManager } from '../types/InputOutputManager'
 import Selector from './SelectorR'
 
 const Build = ({

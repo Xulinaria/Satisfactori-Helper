@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import recipes from '../data/recipes.json'
-import { Recipe } from '../models/Recipe'
+import { Recipe } from '../types/Recipe'
 import { useAppDispatch } from '../redux/hooks'
 import { setRecipe } from '../redux/BoardSlice/slice'
 

@@ -1,7 +1,7 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
-import { InputOutputManager } from '../../models/InputOutputManager'
-import { Item } from '../../models/Item'
-import { Recipe } from '../../models/Recipe'
+import { InputOutputManager } from '../../types/InputOutputManager'
+import { Item } from '../../types/Item'
+import { Recipe } from '../../types/Recipe'
 
 const initialState: InputOutputManager[][] = []
 
