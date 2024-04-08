@@ -5,7 +5,7 @@ import ItemComponent from './Item'
 import Build from './Build'
 import { ItemSidebarM } from '../types/ItemSidebar'
 import { addBuild, addItem } from '../redux/BoardSlice/slice'
-import { Item } from '../types/Item'
+import { Item } from '../types/Item.types'
 
 const Column = ({
   column,
