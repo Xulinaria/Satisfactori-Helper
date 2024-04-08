@@ -1,4 +1,4 @@
-import { Recipe } from './Recipe'
+import { Recipe } from './Recipe.types'
 import { Item } from './Item.types'
 
 export interface InputOutputManager {
