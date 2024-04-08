@@ -1,5 +1,5 @@
 import { useDrop } from 'react-dnd'
-import { InputOutputManager } from '../types/InputOutputManager'
+import { InputOutputManager } from '../types/InputOutputManager.types'
 import { useAppDispatch } from '../redux/hooks'
 import ItemComponent from './Item'
 import Build from './Build'

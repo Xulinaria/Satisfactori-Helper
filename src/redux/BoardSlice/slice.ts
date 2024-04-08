@@ -1,5 +1,5 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
-import { InputOutputManager } from '../../types/InputOutputManager'
+import { InputOutputManager } from '../../types/InputOutputManager.types'
 import { Item } from '../../types/Item.types'
 import { Recipe } from '../../types/Recipe.types'
 
